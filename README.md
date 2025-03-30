@@ -21,7 +21,13 @@ This is a simple and interactive React project that demonstrates a step-by-step 
    git clone https://github.com/ashutoshsitu02/steps.git
    ```
 
-2. Install dependencies:
+2. Navigate to the project directory:
+
+   ```sh
+   cd steps
+   ```
+
+3. Install dependencies:
    ```sh
    npm install
    ```
