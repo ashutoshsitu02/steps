@@ -16,14 +16,12 @@ This is a simple and interactive React project that demonstrates a step-by-step 
 ## 🛠 Installation
 
 1. Clone the repository:
+
    ```sh
    git clone https://github.com/ashutoshsitu02/steps.git
    ```
-2. Navigate to the project directory:
-   ```sh
-   cd react-step-component
-   ```
-3. Install dependencies:
+
+2. Install dependencies:
    ```sh
    npm install
    ```
