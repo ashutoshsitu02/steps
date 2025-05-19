@@ -44,22 +44,32 @@ const App = () => {
           </h4>
 
           <div className="buttons">
-            <button
-              style={{ backgroundColor: "#7950f2", color: "#fff" }}
-              onClick={handlePrevious}
+            <Button
+              bgColor={"7950f2"}
+              color={"fff"}
+              clickHandle={handlePrevious}
             >
               Previous
-            </button>
-            <button
-              style={{ backgroundColor: "#7950f2", color: "#fff" }}
-              onClick={handleNext}
-            >
-              Next
-            </button>
+            </Button>
+
+            <Button bgColor={"7950f2"} color={"fff"} clickHandle={handleNext}>
+              Next <span>→</span>
+            </Button>
           </div>
         </div>
       )}
     </>
+  );
+};
+
+const Button = ({ bgColor, color, clickHandle, children }) => {
+  return (
+    <button
+      style={{ backgroundColor: { bgColor }, color: { color } }}
+      onClick={clickHandle}
+    >
+      {children}
+    </button>
   );
 };
 
